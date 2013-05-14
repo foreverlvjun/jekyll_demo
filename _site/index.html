@@ -1,11 +1,19 @@
-﻿---
-layout: default
-title: 我的Blog
----
-<h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Lvjun's Blog</title>
+</head>
+<body>
+
+    <h2>Lvjun's Blog</h2>
 <p>最新文章</p>
 <ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
+
+<li>25 Aug 2012
+<a href="/jekyll_demo/2012/08/25/hello-world.html">你好，世界</a></li>
+
 </ul>
+
+</body>
+</html>
